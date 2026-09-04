@@ -1,0 +1,27 @@
+{
+  "name": "zipo-frontend",
+  "version": "1.0.0",
+  "description": "Browser-based image compression — SSG, i18n, programmatic landing pages, SEO. Built with Vite + React + Tailwind.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node prerender.mjs",
+    "preview": "vite preview",
+    "gen:pages": "node scripts/gen-pages.mjs",
+    "indexnow": "node scripts/indexnow-push.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "vite": "^6.4.3"
+  }
+}

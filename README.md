@@ -6,7 +6,7 @@ Live demo: **https://zipo.pics**
 
 ---
 
-## ✨ Features
+## ⚡ Features
 
 - **SSG (Static Site Generation)** — Vite + `prerender.mjs` renders every page to static HTML at build time. Zero server runtime, zero latency.
 - **9-Language i18n** — Self-built lightweight i18n using `useSyncExternalStore` + localStorage. Supports RTL (Farsi), falls back to English. Languages: zh, zh-Hant, en, tr, fr, es, ko, ja, fa.
@@ -31,7 +31,7 @@ npm run build
 npm run preview
 ```
 
-## 🏗️ Architecture
+## 🏗 Architecture
 
 ```
 src/
@@ -39,7 +39,7 @@ src/
 ├── App.tsx               # Root component (routes by locale+page)
 ├── entry-server.tsx      # SSR entry — renders React to HTML string
 ├── i18n/
-│   └── index.tsx         # i18n provider + useSyncExternalStore
+│   └── index.tsx          # i18n provider + useSyncExternalStore
 └── ...
 prerender.mjs             # SSG pipeline — renders all (locale, page) combos
 scripts/
@@ -94,16 +94,16 @@ npx wrangler pages deploy dist --project-name your-project
 
 Or connect the repo in the Cloudflare Dashboard → Workers & Pages → Create → Pages → Connect to Git.
 
-## 🔧 Tech Stack
+## 🧑‍💻 Tech Stack
 
 | Layer | Technology |
-|-------|-----------|
+|-------|------------|
 | Framework | Vite 6 + React 18 |
 | Styling | Tailwind CSS 3 |
 | i18n | Self-built (useSyncExternalStore + localStorage) |
 | SSG | vite build + prerender.mjs |
 | Deploy | Cloudflare Pages (edge, zero config) |
-| TypeScript | 5.6 (stract mode) |
+| TypeScript | 5.6 (strict mode) |
 
 
 ## 📚 Community Guides & Documentation
@@ -111,6 +111,7 @@ Or connect the repo in the Cloudflare Dashboard → Workers & Pages → Create �
 - 🇯🇵 [日本語ガイド: 画像を200KBに圧縮する方法（ブラウザ完結）](https://fusion-foo.github.io/zipo-ja/)
 - 🇰🇷 [한국어 가이드: 사진을 200KB로 줄이는 방법 (서버 업로드 없이)](https://sites.google.com/view/zipo/home)
 - 🇪🇸 [Guía en Español: Cómo comprimir una imagen a 200KB sin servidor](https://zipo-es.weebly.com/)
+- 🇧🇷 [Guia em Português: Como Reduzir Imagem para Menos de 200KB sem Perder Qualidade](https://zipo-pt.blogspot.com/2026/09/como-reduzir-o-tamanho-da-imagem-para.html)
 - 🇬🇧 [Technical Guide: How to Reduce Image File Size Without Losing Quality](https://zipo-pics.blogspot.com/2026/09/how-to-reduce-image-file-size-without.html)
 - 🇬🇧 [SEO Guide: Image Compression for SEO & Core Web Vitals](https://zipo-pics.blogspot.com/2026/09/image-compression-for-seo-why-smaller.html)
 

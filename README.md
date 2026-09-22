@@ -103,7 +103,16 @@ Or connect the repo in the Cloudflare Dashboard → Workers & Pages → Create �
 | i18n | Self-built (useSyncExternalStore + localStorage) |
 | SSG | vite build + prerender.mjs |
 | Deploy | Cloudflare Pages (edge, zero config) |
-| TypeScript | 5.6 (strict mode) |
+| TypeScript | 5.6 (stract mode) |
+
+
+## 📚 Community Guides & Documentation
+
+- 🇯🇵 [日本語ガイド: 画像を200KBに圧縮する方法（ブラウザ完結）](https://fusion-foo.github.io/zipo-ja/)
+- 🇰🇷 [한국어 가이드: 사진을 200KB로 줄이는 방법 (서버 업로드 없이)](https://sites.google.com/view/zipo/home)
+- 🇪🇸 [Guía en Español: Cómo comprimir una imagen a 200KB sin servidor](https://zipo-es.weebly.com/)
+- 🇬🇧 [Technical Guide: How to Reduce Image File Size Without Losing Quality](https://zipo-pics.blogspot.com/2026/09/how-to-reduce-image-file-size-without.html)
+- 🇬🇧 [SEO Guide: Image Compression for SEO & Core Web Vitals](https://zipo-pics.blogspot.com/2026/09/image-compression-for-seo-why-smaller.html)
 
 ## 📄 License
 
